@@ -22,7 +22,7 @@ Since in a naturally aspirated engine, approximately one-third of the fuel's che
 <span style="font-size: 2.5em;"><strong>Thermodynamic Modeling of the Turbocharger</strong></span>
 
 
-![Turbocharger System Diagram](/assets/images/Turbocharger_System_Diagram.png)
+![Turbocharger System Diagram](/assets/images/Turbocharger_System%20Diagram.png)
 *Figure 2: Turbocharger system diagram.*
 
 **1.	Mass & Energy Balance in the Turbocharger’s Turbine**\
@@ -88,10 +88,10 @@ $$\dot{m}_a = \dot{m}_{\text{corr}} \sqrt{\frac{T_{\text{ref}}}{T_{\text{c,in}}}
  \
 The turbocharger’s steady-state thermodynamic model, which I’ve elaborated above, can be applied to the S400SX turbocharger using publicly available compressor map data. Key physical quantities of the turbocharger, such as mass flow rate, compressor outlet temperature, compressor power, and required turbine power, can be calculated using the thermodynamic model above.\
 
-![S400SX Turbocharger](/assets/images/S400SX_Turbocharger.png)
+![S400SX Turbocharger](/assets/images/S400SX%20Turbocharger.png)
 *Figure 3: BorgWarner S400SX turbocharger.*
 
-![S400SX Compressor Maps](/assets/images/S400SX_Compressor_Maps.png)
+![S400SX Compressor Maps](/assets/images/S400SX_Compressor%20Maps.png)
 *Figure 4: S400SX compressor maps.*
 
 From the S400SX compressor map available online, I could select a typical mid-efficiency operating point (400-900HP):
