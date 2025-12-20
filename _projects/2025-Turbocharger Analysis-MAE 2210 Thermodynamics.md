@@ -30,6 +30,11 @@ Since in a naturally aspirated engine, approximately one-third of the fuel's che
 
 **1.	Mass & Energy Balance in the Turbocharger’s Turbine**
 Steady State Mass Balance:
+
+$$\dot{m}_t = \dot{m}_{\text{t,in}} - \dot{m}_{\text{t,out}} = 0$$
+$$\dot{m}_{\text{t,in}} = \dot{m}_{\text{t,out}} = \dot{m}_{\text{exh}}$$
+
+
 $$\dot{m}_t = \dot{m}_{(t,\mathrm{in})} - \dot{m}_{(t,\mathrm{out})} = 0$$
 $$\dot{m}_{(t,\mathrm{in})} = \dot{m}_{(t,\mathrm{out})} = \dot{m}_{\mathrm{exh}}$$
 
@@ -98,7 +103,7 @@ Isentropic outlet temperature:
 $$T_{2s} = T_1 \Pi_c^{\frac{k - 1}{k}} = 298 \cdot 3.2^{\frac{0.4}{1.4}} = 415 \, \mathrm{K}$$
 
 Actual outlet temperature, considering the compressor efficiency:
-$$T_2 = T_1 \left[1 + \frac{1}{\eta_c} \left( \Pi_c^{\frac{k - 1}{k}} - 1 \right) \right] = 298 \left[1 + \frac{1}{0.74} (1.364 - 1)\right] = 444.5 \, \mathrm{K}$$
+$$T_2 = T_1 \left[1 + \frac{1}{\eta_c} \left( \Pi_c^{\frac{k - 1}{k}} - 1 \right) \right] = 298 \left[1 + \frac{1}{0.74} (1.364 - 1)\right] = 445.7 \, \mathrm{K}$$
 
 Compressor power needed for the S400SX turbocharger to operate at the selected operating point:
 $$W_c = \dot{m}_a c_p (T_2 - T_1) = 0.53 \cdot 1005 \cdot (445.7 - 298) = 78.7 \, \mathrm{kW}$$
