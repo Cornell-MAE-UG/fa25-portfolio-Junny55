@@ -22,7 +22,7 @@ In order to increase its power output and efficiency, lots of internal combustio
 
 Since in a naturally aspirated engine, approximately one-third of the fuel's chemical energy is lost as thermal waste through the exhaust, and turbochargers exploit the portion of this wasted enthalpy, turbochargers are used in many fields that require high performance of the internal combustion engine, such as motorsports, high-performance commercial automobiles, lightweight aircraft, and industrial fields. The BorgWarner S400SX turbocharger is commonly used in high-performance and heavy-duty engines due to its large compressor flow capacity and high-pressure ratio capability.
 
-<span style="font-size: 2em;"><strong>Thermodynamic Modeling of the Turbocharger</strong></span>\
+<span style="font-size: 2em;"><strong>Thermodynamic Modeling of the Turbocharger</strong></span>
 
 
 ![Turbocharger System Diagram](/assets/images/Turbocharger_System%20Diagram.png)
@@ -67,7 +67,8 @@ $$\dot{m}_{\mathrm{corr}} = \dot{m}_a \sqrt{\frac{T_{(c,\mathrm{in})}}{T_{\mathr
 $$\dot{m}_a = \dot{m}_{\mathrm{corr}} \sqrt{\frac{T_{\mathrm{ref}}}{T_{(c,\mathrm{in})}}} \frac{P_{(c,\mathrm{in})}}{P_{\mathrm{ref}}}$$
 
 <span style="font-size: 2em;"><strong>Specific Turbocharger, S400SX, Data and Modeling</strong></span>
-\
+ \
+ \
 The turbocharger’s steady-state thermodynamic model, which I’ve elaborated above, can be applied to the S400SX turbocharger using publicly available compressor map data. Key physical quantities of the turbocharger, such as mass flow rate, compressor outlet temperature, compressor power, and required turbine power, can be calculated using the thermodynamic model above.\
 
 ![S400SX Turbocharger](/assets/images/S400SX%20Turbocharger.png)
