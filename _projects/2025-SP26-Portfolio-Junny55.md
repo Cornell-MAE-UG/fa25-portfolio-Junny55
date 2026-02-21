@@ -1,118 +1,97 @@
 ---
 layout: project
-title: SP26-PORTFOLIO-JUNNY55
-subtitle: Portfolio Entry Created with Proposal
+title: MAE2250 Open Design Project
+subtitle: Group project focusing on the lanternfly infestation and their effects on the grape industry
 date: 2026-02-20
 image: /assets/images/portfolio-placeholder.jpg
 ---
 
 ## Overview
 
-**SP26-PORTFOLIO-JUNNY55** is a comprehensive portfolio project that demonstrates a complete design process from proposal through implementation. This entry represents the first documented phase of the project, created with a formal proposal and client outline.
+This is a group engineering design project focused on addressing the **spotted lanternfly infestation** problem and its significant impact on the grape industry. The project applies open design principles to develop innovative solutions to mitigate the economic and environmental damage caused by these invasive pests.
 
 ---
 
 ## Project Details
 
 ### Type
-Portfolio Project - MAE (Mechanical and Aerospace Engineering)
+Group Engineering Design Project
 
 ### Status
-**Portfolio Entry Created with Proposal** - Project Proposal Phase
+**Proposal Phase** - Client requirements and design brief established
 
 ### Semester
 Spring 2026
 
 ---
 
-## Proposal Summary
+## Team & Clients
 
-This portfolio entry begins with a detailed proposal phase that outlines:
+Team: Pest Control Clients: Cornell CALS Extension / E&J Gallo Winery / National Grape 
 
-- **Project Scope**: Comprehensive engineering design challenge
-- **Objectives**: Clear deliverables and engineering outcomes
-- **Client Requirements**: Detailed problem statement and constraints
-- **Proposed Solutions**: Initial design approaches and methodology
-- **Timeline**: Planned phases and milestones
-- **Resource Allocation**: Tools, materials, and personnel requirements
+## Problem
 
-### Key Proposal Elements
+Problem: Viticulturalists in New York State are affected by the spotted lantern fly infestation, an invasive species that contaminates the harvest. Batches are rejected from juiceries and wineries, resulting in economic loss. Traditional pest-control methods are insufficient. Pesticides come with high economic and environmental costs. Egg removal proves too difficult because of the massive scale of laying locations, costing too much in labor. 
 
-1. **Problem Statement**
-   - [To be populated from proposal document]
-   - Engineering challenge and opportunity identification
+## Impact
 
-2. **Design Objectives**
-   - [To be populated from proposal document]
-   - Specific, measurable engineering goals
-
-3. **Constraints & Requirements**
-   - [To be populated from proposal document]
-   - Technical, budget, and timeline constraints
+Impact: Reducing SLF contamination in harvest improves economic output. Currently, farmers rely on insecticide rotations, but a mechanical device would offer a low-chemical alternative and reduce the cost of expensive sprays while meeting the growing consumer demand. 
 
 ---
 
-## Project Phases
+## Solution
 
-### Phase 1: Proposal & Planning (Current Phase)
-- ✓ Project concept development
-- ✓ Client requirements gathering
-- ✓ Preliminary feasibility analysis
-- ✓ Resource planning and timeline
+Solution: Centrifugal Density Separator- A high-speed rotation device that separates harvested grapes from SLF by density, removing them from the desired product. 
 
-### Phase 2: Design Development (Upcoming)
-- Detailed design analysis
-- CAD modeling and simulation
-- Design reviews and iterations
+## How to Implement
 
-### Phase 3: Implementation & Testing (Upcoming)
-- Prototype development or system implementation
-- Testing and validation
-- Performance analysis
+How to implement: Harvest is loaded into the device, and an internal drum spins at a calculated RPM. Heavier grapes are pushed out furthest, sliding down the angled outer walls into a collection bin. Lighter insects get pulled into a secondary bag. This way, grape pulp is conserved without contamination. 
 
-### Phase 4: Documentation & Presentation (Upcoming)
-- Final report and portfolio documentation
-- Technical presentation
-- Lessons learned and conclusions
+## Why It's Better Than the Status Quo
 
----
+Why it's better than the status quo: Pesticides leave a taint on the wine's taste profile and contaminate the organic integrity of the grapes. Manual sorting is slow, costly, and prone to human error/inconsistencies. Our solution is non-chemical and efficient on a large scale.
 
-## Tools & Technologies
+## End-of-Semester Proof-of-Concept
 
-- **CAD Software**: Autodesk Fusion 360, SolidWorks
-- **Analysis Tools**: ANSYS, MATLAB
-- **Manufacturing**: 3D Printing, Laser Cutting, CNC Machining
-- **Documentation**: Technical writing, presentation design
+End-of-semester proof-of-concept: A benchtop rotating drum prototype using grapes and 3D printed SLF accurate to weight and size, allowing us to optimize RPM. Success is determined by comparing the percentage of pests (SLF models) successfully sorted with the percentage of harvest lost.
 
----
+## Key Risks/Unknowns
 
-## Skills Demonstrated
+Key risks/unknowns:
 
-- Engineering problem-solving
-- Project planning and management
-- Client communication and requirements analysis
-- Technical proposal writing
-- Feasibility analysis
-- Interdisciplinary team coordination
+### Damage to Grapes
 
----
+Damage to grapes: A high RPM exerts a force on the grape skin, possibly causing the grapes to break apart. Assessing the damage to grapes requires a physical "Burst Test," spinning grapes at incremental RPMs to identify when skins rupture, then comparing our results to the RPM needed to separate SLF.
 
-## Next Steps
+### Mass Variation and Obstructions
 
-The next phase of this portfolio project will include:
-1. Detailed design analysis and calculations
-2. CAD modeling and simulations
-3. Prototype development
-4. Testing and validation
-5. Final documentation
+Mass variation and obstructions: While a dry lanternfly is less dense than a grape, a lanternfly soaked in grape juice is much denser. Similarly, an SLF wedged inside a tight cluster might not separate easily, resulting in less effective separation. We can test this by using "weighted" objects (3D-printed bugs with adhesive, SLF tucked inside dense clusters or higher-density SLF), measuring SLF removed per cycle at various degrees of obstruction.
+
+### Processing Time
+
+Processing time: A centrifuge is often a batch process, and if the device takes too long to load, spin, and unload, farmers will reject it in favor of faster methods. To address this, we will test the time the cycle duration of our prototype, and calculate the throughput to compare it to standard manual sorting speeds.
+
+## Questions for the Client
+
+Questions for the client
+
+How much material other than grapes, like stems and leaves, typically remains in the bin after your primary harvest? This changes our separation threshold and testing parameters based on what we want to separate/how much grapes weigh.
+
+What is the maximum holding time allowed between the grape being picked and it reaching the crusher before you worry about quality loss? This determines the constraints of our time trials and whether or not our product is viable in the time scale of grape processing.
+
+Do the SLF tend to stay on the surface of the grape clusters when disturbed, or do they retreat deep into the center of the bunch? This affects the "ramping profile" (i.e. how fast we accelerate) based on how hard SLF tends to stay on grapes, and also how we simulate SLF in our separation experiments.
+
+What reservations does this idea leave you with as a client? (Any issues we haven't thought of?)
 
 ---
 
-## Additional Resources
+## References
 
-- **Proposal Document**: [Client Outline and Pitch.pdf]
-- **Project Team**: Junseok Kang
-- **Academic Credit**: MAE Portfolio Project SP26
+Penn State Agricultural Division. "Spotted Lanternfly." Penn State Extension, extension.psu.edu/spotted-lanternfly.
+
+Penn State Agricultural Division, "Spotted Lanternfly Management in Vineyards." Penn State Extension, extension.psu.edu/spotted-lanternfly-management-in-vineyards.
+
+Department of Environmental Conservation, NYS. "Spotted Lanternfly - NYDEC." Dec.ny.gov, 16 Mar. 2017, dec.ny.gov/nature/animals-fish-plants/spotted-lanternfly.
 
 ---
 
@@ -124,4 +103,4 @@ For inquiries about this project:
 
 ---
 
-*This portfolio entry is part of Junseok Kang's MAE undergraduate portfolio and demonstrates the complete engineering design process.*
+*This portfolio entry is part of Junseok Kang's MAE undergraduate portfolio and demonstrates the application of open design principles to real-world agricultural engineering challenges.*
